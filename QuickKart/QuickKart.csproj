@@ -41,14 +41,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\DbConnectionFactory.cs" />
+    <Compile Include="Forms\AddressForm.cs" />
+    <Compile Include="Forms\AdminForms.cs" />
     <Compile Include="Forms\AppTheme.cs" />
     <Compile Include="Forms\DashboardForm.cs" />
     <Compile Include="Forms\LoginForm.cs" />
+    <Compile Include="Forms\InvoiceForm.cs" />
+    <Compile Include="Forms\OrderForm.cs" />
+    <Compile Include="Forms\OrderHistoryForm.cs" />
+    <Compile Include="Forms\ProfileForm.cs" />
     <Compile Include="Forms\RegistrationForm.cs" />
+    <Compile Include="Models\AdminModels.cs" />
     <Compile Include="Models\AuthenticatedUser.cs" />
+    <Compile Include="Models\CustomerModels.cs" />
+    <Compile Include="Models\OrderModels.cs" />
     <Compile Include="Models\RegistrationRequest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Services\AuthenticationService.cs" />
+    <Compile Include="Services\AdminService.cs" />
+    <Compile Include="Services\CustomerService.cs" />
+    <Compile Include="Services\OrderService.cs" />
     <Compile Include="Utilities\PasswordHasher.cs" />
   </ItemGroup>
   <ItemGroup>
