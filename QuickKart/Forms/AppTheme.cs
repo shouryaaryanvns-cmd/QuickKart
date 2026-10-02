@@ -21,7 +21,7 @@ namespace QuickKart.Forms
                 Text = text,
                 ForeColor = Text,
                 Font = new Font("Segoe UI Semibold", size, FontStyle.Bold),
-                Margin = new Padding(0, 0, 0, 9)
+                Margin = new Padding(0, 0, 0, 8)
             };
         }
 
